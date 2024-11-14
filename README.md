@@ -37,13 +37,11 @@ Installation
 To use this project locally, follow these steps:
 
 1. Clone the repository:
-bash
-Copy code
+
 git clone https://github.com/yourusername/underwater-image-enhancement.git
 cd underwater-image-enhancement
 2. Install required dependencies:
-bash
-Copy code
+
 pip install -r requirements.txt
 The requirements.txt includes all the necessary Python libraries such as opencv-python, numpy, matplotlib, and any other dependencies.
 
@@ -51,14 +49,12 @@ Usage
 1. Enhance a single image:
 You can enhance an underwater image using the following Python script:
 
-bash
-Copy code
+
 python enhance_image.py --input_path "path_to_your_image.jpg" --output_path "path_to_output_image.jpg"
 2. Batch processing:
 If you have multiple images to enhance, you can run the batch script:
 
-bash
-Copy code
+
 python batch_enhance.py --input_dir "path_to_images_directory" --output_dir "path_to_output_directory"
 Evaluation
 To evaluate the performance of the image enhancement techniques, the following statistical analysis and metrics are used:
